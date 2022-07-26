@@ -1,0 +1,35 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+article > h3, p {
+    margin-left: 1rem;
+}
+
+aside > div:first-child {
+    border-top: 1px solid gray;
+}
+
+aside > div {
+    border-bottom: 1px solid gray;
+}
+
+footer {
+    padding: 1rem;
+}
